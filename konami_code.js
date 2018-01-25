@@ -7,6 +7,7 @@ function init() {
 
 function onKeyDownHandler(e) {
   const key = parseInt(e.which)
+  console.log(key)
   if (key === code[index]) {
     index += 1
     if (index === code.length) {
